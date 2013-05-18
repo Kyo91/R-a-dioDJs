@@ -1,1 +1,15 @@
-This program is used to easily view the current DJ on R-a-d.io .
+R-a-dioDJs is a simple script that displays the current DJ steaming on r-a-d.io .
+
+Install:
+
+Download and install Python 2.7 (http://www.python.org/getit/) *Make sure that python is added to the classpath.
+
+Download and install python setuptools (https://pypi.python.org/pypi/setuptools#files) *64-bit version (http://peak.telecommunity.com/dist/ez_setup.py)*
+
+Download and extract the python feedparser library (https://pypi.python.org/pypi/feedparser/#downloads)
+
+Install the feedparser library by navigating to the extracted directory typing "python setup.py install" (without quotes).
+
+To use R-a-dioDJs, simply execute the DJs.py file. Optionally, DJs.txt contains a list of all of r-a-d.io's DJs. By uncommenting (removing the ##s) from a DJ's name, R-a-dioDJs will automatically open r-a-d.io in a new tab whenever the selected DJ begins streaming.
+
+By default, R-a-dioDJs is set to check the RSS feed for updates every 10 minutes. This value can be changed within the source code.
