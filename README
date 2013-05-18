@@ -4,7 +4,7 @@ Install:
 
 Download and install Python 2.7 (http://www.python.org/getit/) *Make sure that python is added to the classpath.
 
-Download and install python setuptools (https://pypi.python.org/pypi/setuptools#files) *64-bit version (http://peak.telecommunity.com/dist/ez_setup.py)*
+Download and install python setuptools (https://pypi.python.org/pypi/setuptools#files) *64-bit version ( http://peak.telecommunity.com/dist/ez_setup.py )*
 
 Download and extract the python feedparser library (https://pypi.python.org/pypi/feedparser/#downloads)
 
