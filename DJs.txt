@@ -1,5 +1,5 @@
 ##List of R/a/dio DJs
-##To open r/a/d.io in a new tab for a select DJ, uncomment their name (remove ##).
+##To add DJs to automatic alert, uncomment their name (remove ##).
 ##
 ##
 ##Eggmun
