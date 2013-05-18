@@ -6,9 +6,10 @@ import re
 import time
 import webbrowser
 
+dj_rss = "http://r-a-dio.ackwell.com.au/dj/rss"
+
 def currentDJ():
 	'''Parses RSS for info about current DJ.'''
-	dj_rss = "http://r-a-dio.ackwell.com.au/dj/rss"
 	feed = feedparser.parse(dj_rss)
 	
 	current = feed["items"][0]
@@ -68,7 +69,7 @@ def watchedDJs(file, dj):
 		with open(file) as list:
 			for line in list:
 				line.strip()
-				if not line.startswith('##'):
+				if not line.startswith('#'):
 					djs.append(dj)
 		if dj in djs:
 			webbrowser.open("http://r-a-d.io/", 2)
