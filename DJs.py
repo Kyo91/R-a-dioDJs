@@ -82,7 +82,7 @@ def watchedDJs(file, dj):
 			for line in list:
 				line.strip()
 				if not line.startswith('#'):
-					djs.append(dj)
+					djs.append(line)
 		if dj in djs:
 			webbrowser.open("http://r-a-d.io/", 2)
 	except IOError:
