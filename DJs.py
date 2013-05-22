@@ -80,7 +80,7 @@ def watchedDJs(file, dj):
 	try:
 		with open(file) as list:
 			for line in list:
-				line.strip()
+				line = line.strip()
 				if not line.startswith('#'):
 					djs.append(line)
 		if dj in djs:
